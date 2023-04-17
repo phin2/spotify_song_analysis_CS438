@@ -1,5 +1,13 @@
+shiny_package_list <- c("shiny" ,"shinydashboard","shinycssloaders")
+new_shiny_packages <- shiny_package_list[!(shiny_package_list %in% installed.packages()[,"Package"])]
+if (length(new_shiny_packages) > 0) {install.packages(new_shiny_packages)}
+library(shiny)
 library(shinydashboard)
+library(shinycssloaders)
+
 source("./spotify_func.R")
+
+options(spinner.color="#0275D8", spinner.color.background="#ffffff", spinner.size=2)
 
 ui <- dashboardPage(
   dashboardHeader(title ="Spotify Music Reccomendation and Analysis"),
@@ -18,22 +26,31 @@ ui <- dashboardPage(
                         value = "", 
                         width = "100%",
                         placeholder = "Enter your spotify playlist uri")
-    ),    submitButton("Get Reccomendation"),
+    ),
+    actionButton("recommend","Get Recommendation"),
     
-    
-    dataTableOutput(outputId = "tbl"),
+    withSpinner(dataTableOutput(outputId = "tbl"),type=2),
     tabItem(tabName = "user")
   )
 )
 
 server <- function(input,output) {
   songs <- data.frame()
+  shinyInput = function(FUN, len, id, ...) { 
+    inputs = character(len) 
+    for (i in seq_len(len)) { 
+      inputs[i] = as.character(FUN(paste0(id, i), label = NULL, ...)) 
+    } 
+    inputs 
+  }
   output$value <- renderText({input$playlist_id})
-  getSongs <- reactive({
-      songs <- pl_features(input$playlist_id,songs)
+  getSongs <- eventReactive(input$recommend, {
+    songs = pl_features(input$playlist_id,songs)
+    songs <- cbind(check=shinyInput(checkboxInput, nrow(songs), "checkb"), songs)
+    checked_songs = songs[songs$check == TRUE]
+    recommend(checked_songs, songs)
   })
-  output$tbl <- renderDataTable({getSongs()})
-
+  output$tbl <- renderDataTable(getSongs(),options = list(scrollX = TRUE))
 }
 
-shinyApp(ui,server)
+shinyApp(ui=ui,server=server)

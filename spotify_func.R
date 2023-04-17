@@ -1,8 +1,10 @@
-install.packages('spotifyr')
+is_spotifyr_available <- require(spotifyr)
+if (!is_spotifyr_available) {
+  install.packages("spotifyr")
+}
 library(spotifyr)
-
-#This file contains functinos that use the request and send data
-#from the spotify api 
+#This file contains functions that use the request and send data
+#from the Spotify API
 
 
 #generates an access token

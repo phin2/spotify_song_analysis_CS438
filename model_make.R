@@ -1,4 +1,6 @@
-
+model_package_list <- c("Rtsne","readr","ClusterR","factoextra","ggpubr","cluster","ggplot2","caret","proxy")
+new_model_packages <- model_package_list[!(model_package_list %in% installed.packages()[,"Package"])]
+if (length(new_model_packages) > 0) {install.packages(new_model_packages)}
 library(Rtsne)
 library(readr)
 library(ClusterR)
