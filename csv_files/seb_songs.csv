@@ -1,0 +1,142 @@
+track_name,artist_name,duration_ms,acousticness,danceability,energy,instrumentalness,key,liveness,loudness,mode,speechiness,tempo,time_signature,valence,popularity,track_uri
+I Don't Wanna Die,The Unicorns,123500,0.7,0.61,0.433,0.0149,9,0.212,-10.045,1,0.0887,101.732,3,0.611,37,spotify:track:6jYx1PzbDvbrYkj4x4MwYc
+True Love Will Find You in the End,Daniel Johnston,111171,0.948,0.551,0.174,1.05e-05,10,0.107,-12.116,0,0.0358,118.656,4,0.135,50,spotify:track:6fEjOPaZoxQl3oha9GDJAN
+We're Not Gonna Take It,Twisted Sister,219667,0.0127,0.502,0.924,0,4,0.162,-6.299,1,0.0503,149.186,4,0.922,70,spotify:track:1hlveB9M6ijHZRbzZ2teyh
+Chlorine,Twenty One Pilots,324467,0.0735,0.609,0.674,0.06,10,0.345,-7.388,0,0.0548,90.009,4,0.315,71,spotify:track:23OXdR7YuUBVWh5hSnYJau
+We're Going To Be Friends,The White Stripes,142227,0.687,0.533,0.459,0,7,0.0773,-5.499,1,0.0277,97.213,4,0.386,0,spotify:track:1N883b1C3trjGcx2h4E99B
+Locked Out,Daddy Issues,223120,0.0319,0.234,0.526,8.82e-06,8,0.381,-8.424,1,0.0328,174.575,4,0.208,0,spotify:track:5OHqaWsEAgox1gE6ix7FK3
+"Mozart: Symphony No. 40 in G Minor, K. 550: I. Molto allegro",Wolfgang Amadeus Mozart,432546,0.975,0.355,0.188,0.859,7,0.122,-18.089,0,0.0369,113.537,4,0.214,45,spotify:track:6OC0v9yU90ME5DW2o1skKr
+Sick Shit,Together Pangea,246947,3.9e-05,0.263,0.853,0.362,0,0.0839,-4.532,1,0.0727,120.982,4,0.355,45,spotify:track:14q1CWouLEjFT6zu5re8hR
+Token,Fernweh,245539,0.682,0.677,0.266,0,10,0.109,-13.285,1,0.0343,64.974,4,0.148,21,spotify:track:3MD3WS3uUgiPWhTETYQ9UO
+Haunted,Laura Les,102007,0.000654,0.51,0.817,0.0344,9,0.146,-8.666,1,0.0373,169.481,4,0.547,66,spotify:track:1toNKayLMeCcVlsLGXJl7n
+Carmelita,Warren Zevon,214747,0.618,0.735,0.364,0.000129,4,0.102,-13.774,1,0.028,94.031,4,0.546,47,spotify:track:7hIdRDgUBPbqiQ7duhCyux
+Freaks,Surf Curse,147062,3.84e-05,0.345,0.941,0.633,9,0.0511,-9.918,1,0.0466,179.626,4,0.407,81,spotify:track:7EkWXAI1wn8Ii883ecd9xr
+Explöded Diper,Löded Diper,84236,0.252,0.535,0.881,0,7,0.778,-8.261,1,0.0513,99.036,4,0.428,0,spotify:track:2ZvkxSzjMGkKlH7BaIY8BM
+Gimme Some Truth - Remastered 2010,John Lennon,197813,0.106,0.561,0.783,0.0214,5,0.0812,-8.878,1,0.0366,133.518,4,0.768,42,spotify:track:3d2oiHuHm3rftzRDPeL5LU
+Cielito Lindo,Mariachi Vargas De Tecalitlán,221773,0.409,0.263,0.507,3.64e-05,0,0.355,-4.921,1,0.0314,185.437,3,0.716,0,spotify:track:65b45IKXxKaHOGzP1oQtKR
+Tuesday's Gone,Lynyrd Skynyrd,450227,0.0778,0.232,0.615,5.68e-06,9,0.0601,-8.636,1,0.0295,146.488,3,0.41,60,spotify:track:64sn7wgJfeQKY3Jisnl59w
+Dead Love,Dogheart,231891,0.00844,0.246,0.849,0.0264,1,0.124,-5.383,0,0.0494,183.984,4,0.406,0,spotify:track:7ttWsJhi6rMUFhiNxYaEca
+Lose It,SWMRS,240533,0.334,0.792,0.41,2.19e-05,5,0.106,-10.141,1,0.0492,112.043,4,0.561,50,spotify:track:0Ceozg27V0Ws9jgQixD8fr
+The Pharmacy,Mario Cuomo,192308,0.402,0.534,0.29,1.05e-05,7,0.123,-10.516,0,0.031,77.943,4,0.0819,0,spotify:track:1vfhDhKEKzBj9HAl3BqpXW
+Electric Feel,MGMT,229640,0.0709,0.763,0.803,0.285,1,0.348,-3.713,1,0.0351,103.04,3,0.561,73,spotify:track:3FtYbEfBqAlGO46NUDQSAt
+Someone To Spend Time With,Los Retros,173954,0.0488,0.816,0.46,0.261,9,0.106,-13.299,1,0.034,89.57,4,0.963,69,spotify:track:6SE4JAo7T8C7XkFka5bbga
+GOODMORNINGTOKYO!,TOKYO’S REVENGE,150115,0.0408,0.907,0.539,0,4,0.253,-7.782,1,0.36,124.918,4,0.664,66,spotify:track:0Q2n5yzl2XRqYbV77tZNYp
+Pigstep (Stereo Mix),Lena Raine,149647,0.249,0.617,0.919,0.0976,4,0.282,-2.879,0,0.0556,113.175,5,0.529,55,spotify:track:2TmUt0ofWMa02MdYkKhK4C
+My Iron Lung,Radiohead,276427,0.056,0.242,0.859,0.116,0,0.38,-8.4,1,0.0663,96.929,4,0.671,0,spotify:track:4dPKQxaraW6CG1rTBzV6DW
+The Way I Feel Inside,The Zombies,108573,0.954,0.62,0.148,0,1,0.0968,-13.124,0,0.078,114.627,4,0.579,9,spotify:track:2iSxljzM8Xw9EEIGBRW1CD
+The Record Player Song,Daisy the Great,203352,0.558,0.635,0.674,0,9,0.471,-6.064,1,0.0543,139.866,4,0.694,45,spotify:track:0n4iGZfTeuzx0C9os0TJ6p
+Galaxies,Laura Veirs,215600,0.0244,0.483,0.492,8.5e-05,9,0.107,-8.014,0,0.0237,79.924,4,0.447,32,spotify:track:5fXzip3wTVAfVIzpl5Hkvm
+Tears to Shed,Danny Elfman,165640,0.841,0.403,0.28,2.35e-05,7,0.148,-15.442,0,0.0638,91.51,3,0.416,43,spotify:track:1mTeIr9fB94C7craFmKDCo
+Sunny Afternoon - Stereo Version,The Kinks,214693,0.129,0.555,0.553,0,0,0.0687,-6.658,1,0.0244,61.997,4,0.446,33,spotify:track:4I1WBw0xqdenkemd6gwIyp
+El Milagro de Tus Ojos,Mariachi Jalisco,158663,0.695,0.545,0.434,0,6,0.131,-9.843,0,0.0295,135.755,4,0.698,39,spotify:track:2ix27eozMjL3P1NvdPpLk4
+When It Comes To You,Dead Ghosts,180193,0.297,0.31,0.886,0.892,0,0.135,-6.586,0,0.075,145.348,4,0.287,33,spotify:track:6nIsaRhL5Lb6ul3tCeD0ev
+Look Like That,Violent Femmes,165133,0.193,0.487,0.404,0,9,0.0889,-10.915,1,0.0323,114.712,4,0.677,0,spotify:track:6bclpIlo01vVXQMp1nTayt
+Elenore,The Turtles,151307,0.6,0.63,0.625,1.52e-05,4,0.24,-8.407,1,0.0375,122.504,4,0.887,55,spotify:track:4DWFSrNnZXow1aB96gByho
+"Folsom Prison Blues - Live at Folsom State Prison, Folsom, CA - January 1968",Johnny Cash,162653,0.0652,0.621,0.524,0.00199,0,0.893,-15.269,1,0.0803,110.586,4,0.889,65,spotify:track:2fDHuS1PTkHBbCWWZF1ph9
+Only Time,Enya,218547,0.841,0.418,0.249,0.661,3,0.112,-13.744,1,0.0301,82.803,4,0.213,67,spotify:track:6FLwmdmW77N1Pxb1aWsZmO
+It's No Game (Pt. 1) - 2017 Remaster,David Bowie,257467,0.11,0.492,0.798,3.11e-05,7,0.489,-8.638,1,0.0571,101.405,4,0.527,35,spotify:track:6S04qCT9xjWPtgBK4UoPEQ
+Sex & Candy,Marcy Playground,173493,0.238,0.67,0.558,0,2,0.106,-9.159,1,0.0251,80.511,4,0.63,67,spotify:track:5mkGfmJGFZpwK9nA5amOhv
+Always a Butterfly to Me,The Kicking Heels,53894,0.867,0.542,0.305,0.0271,0,0.159,-10.9,1,0.0525,137.331,4,0.234,0,spotify:track:25YXYxNARWshoAm9zpeGOZ
+Don't Touch,Lil Mariko,148000,0.0203,0.76,0.793,0.000702,1,0.719,-5.976,1,0.0874,119.995,4,0.387,34,spotify:track:2VrCgaINz9U7R1bbR1cXYG
+Hold My Head,Swain,99120,0.0477,0.6,0.786,0.275,8,0.383,-6.26,0,0.063,127.036,4,0.312,31,spotify:track:3HbDzpmf7M4LXZKRf1m5Bs
+Experience,Ludovico Einaudi,315427,0.934,0.447,0.449,0.961,2,0.0697,-10.634,1,0.0376,92.468,4,0.036,75,spotify:track:1BncfTJAWxrsxyT9culBrj
+The Wanderer,Dion,168640,0.301,0.59,0.546,0,7,0.0936,-10.213,1,0.0436,114.04,4,0.855,57,spotify:track:3v8d3ku3kiTZVPxEt7a2dE
+Covert Discretion,FREEMAN,294813,0.842,0.667,0.218,2.37e-05,7,0.0679,-9.339,1,0.0337,107.825,4,0.352,27,spotify:track:3N2vwyTNgV8YoTFiHX4H9X
+The Devil Comes Back to Georgia,Mark O'Connor,253227,0.331,0.559,0.582,0.00113,4,0.261,-13.48,0,0.0415,137.033,4,0.871,38,spotify:track:1nRVfS3M7vkRRjWp9rzIka
+Crimson & Clover,Tommy James & The Shondells,209800,0.275,0.456,0.609,0.0198,11,0.108,-11.767,1,0.068,84.441,4,0.682,50,spotify:track:6FEKEO3y7QFcMwoGeR0GtU
+Bloody Nose,Earlimart,286227,0.0998,0.465,0.526,0.0553,9,0.114,-7.477,0,0.0241,84.961,4,0.235,11,spotify:track:6pnMH2Y2WaVuirVpajBzrW
+Someday,Sugar Ray,242800,0.0105,0.745,0.682,0.0862,1,0.21,-4.39,0,0.0287,110.857,4,0.938,57,spotify:track:6zeDYmP3ARpURvpK29Q09P
+Canon in D,Johann Pachelbel,376533,0.808,0.151,0.125,0.308,2,0.121,-20.414,1,0.0386,150.812,4,0.29,51,spotify:track:1c3GkbZBnyrQ1cm4TGHFrK
+Easy Chair,The Easy Button,196811,0.031,0.5,0.817,0,8,0.161,-5.016,1,0.0362,75.994,4,0.538,0,spotify:track:2wsG9upvLmegs4yCWitXyR
+Bobby Brown Goes Down,Frank Zappa,169067,0.245,0.594,0.565,0,0,0.123,-10.249,1,0.175,136.507,4,0.755,53,spotify:track:4tSTpnw8UYNlroCEo774tm
+Suburban Wasteland,Mike Krol,105907,0.00106,0.334,0.729,5.15e-06,11,0.359,-7.165,1,0.0572,130.353,3,0.197,13,spotify:track:1vrpXUDBZTA45j5K6ITsXU
+Macho!,XANAKIN SKYWOK,109899,0.0878,0.829,0.317,0.0157,1,0.31,-13.95,1,0.273,105.027,4,0.178,52,spotify:track:6OaHvJY8B6hZf5onw9DkNy
+Chop,Vundabar,170880,0.429,0.438,0.771,0.772,1,0.417,-7.808,1,0.0359,80.586,4,0.402,0,spotify:track:6sZPUDlyfWPwoxdC9zxbds
+The One You Really Love,The Magnetic Fields,173293,0.823,0.532,0.524,0.000308,8,0.193,-9.254,1,0.0285,99.54,4,0.655,28,spotify:track:5WFSyW3Ymg4rjKn2xbvBfJ
+I Need You To Turn To,Elton John,152907,0.825,0.385,0.252,0,2,0.139,-13.599,1,0.033,124.722,3,0.305,23,spotify:track:1cfmyx9rioD4CPMNUHdgAh
+Nicole,Ween,560667,0.164,0.867,0.456,0.139,4,0.691,-11.127,1,0.074,100.092,4,0.664,20,spotify:track:53SvLCz3at2p9GtTvuvEHN
+Amour plastique,Videoclub,227027,0.765,0.7,0.354,0.00158,6,0.128,-14.043,0,0.0345,119.965,4,0.245,64,spotify:track:7M3HuQRRAm1QD4kftmq0bb
+The Chain - 2004 Remaster,Fleetwood Mac,270213,0.009,0.545,0.67,0.000822,9,0.0451,-8.81,1,0.0496,151.553,4,0.481,77,spotify:track:5e9TFTbltYBg2xThimr0rU
+Sucked Out,Superdrag,166800,0.0366,0.403,0.767,0,4,0.318,-6.743,1,0.0431,125.469,4,0.743,40,spotify:track:4YN94yxYWFfhk9YbmOIqR4
+Live And Let Die - 2018 Remaster,Wings,192773,0.0797,0.391,0.375,0.013,7,0.143,-12.573,1,0.046,153.802,4,0.116,61,spotify:track:0VV8wkOM4w78A2OHZOTzNP
+Spirits,The Strumbellas,203653,0.164,0.556,0.658,0,0,0.113,-6.075,1,0.0265,80.529,4,0.787,25,spotify:track:7GJ572zvnU94VZVrj5XRtb
+I'll Be Here in the Morning,Townes Van Zandt,180107,0.887,0.558,0.17,0.037,4,0.113,-18.882,1,0.0331,76.835,4,0.635,51,spotify:track:0HLBLRkkTOlAmjonShicD0
+Killing In The Name,Rage Against The Machine,313573,0.0266,0.466,0.833,0,7,0.0327,-4.215,1,0.304,88.785,4,0.661,76,spotify:track:59WN2psjkt1tyaxjspN8fp
+Pepsi/Coke Suicide,Elvis Depressedly,153095,0.742,0.39,0.419,0.937,0,0.143,-9.049,1,0.0302,79.807,4,0.318,0,spotify:track:2MQi8oVx3eOgDOqmeKJIJZ
+Guillotine,Death Grips,223364,0.0678,0.561,0.64,0.000387,11,0.148,-5.042,0,0.287,78.464,4,0.196,47,spotify:track:3IrcvqIf3ZiBhf3xdsctRX
+Salad Days,Mac DeMarco,145893,0.0877,0.431,0.771,0.0214,5,0.121,-7.176,1,0.0375,201.002,4,0.772,62,spotify:track:5VdaMUzoQetwxQwtWAd022
+Father And Son,Yusuf / Cat Stevens,221120,0.541,0.495,0.326,8.85e-05,7,0.0996,-12.29,1,0.0365,136.243,4,0.371,69,spotify:track:476V2d6iA2tWXgQboKmTtA
+So Bored,Wavves,193627,0.0522,0.355,0.873,0.873,9,0.101,2.017,1,0.0438,79.995,4,0.258,18,spotify:track:6fyaYe9CJsUo8412g22Uve
+In Spite of Ourselves (feat. Iris DeMent),John Prine,213600,0.67,0.547,0.277,0,0,0.091,-11.327,1,0.0429,153.974,4,0.684,56,spotify:track:1k691v8ChLgDiuLLKnjyj6
+Black Sheep - Brie Larson Vocal Version,Metric,294066,0.000278,0.462,0.599,0.000441,11,0.0909,-5.735,0,0.0375,123.938,4,0.173,63,spotify:track:60TThBDrPpek5k520l0W0L
+Bad Girls,Tennis,271440,0.217,0.543,0.69,0.0834,11,0.153,-5.992,1,0.0295,165.037,3,0.51,30,spotify:track:3o6cyNUUVQ55klr7tswS1c
+Undone - The Sweater Song,Weezer,305533,0.00114,0.457,0.618,0.00257,6,0.0679,-6.682,1,0.0296,80.184,4,0.579,67,spotify:track:5WhtlIoxoZrMmuaWWEQhwV
+Mon autre,Juniore,220733,0.00398,0.576,0.907,0.915,0,0.106,-6.403,1,0.0423,164.948,4,0.624,35,spotify:track:1ysM1tOpKQY06V96Lw3gmk
+"Preludes, Op. 28: No. 4, Largo",Frédéric Chopin,131200,0.991,0.376,0.0164,0.866,9,0.116,-25.933,0,0.0475,108.821,4,0.0364,59,spotify:track:5XfmcJMAaifjRrIdLaXVLm
+I Love You Like An Alcoholic,The Taxpayers,215933,0.384,0.61,0.424,0.000148,4,0.11,-6.489,0,0.0311,108.416,4,0.207,63,spotify:track:7u63zva845rv8tRFi9FG8a
+Flip Flop,Yucky Duster,99704,0.00856,0.489,0.836,0.644,2,0.0334,-5.554,1,0.0875,90.137,3,0.646,31,spotify:track:7p529meBch4lKsX1fRlY9i
+Cocaine,FIDLAR,452739,0.0275,0.265,0.463,0.000227,9,0.0766,-6.004,1,0.079,82.48,4,0.119,32,spotify:track:30T7gfRHCbMLwsjR9z4Kiq
+Walk On the Wild Side,Lou Reed,254173,0.683,0.575,0.318,0.000202,0,0.0934,-16.729,1,0.109,104.522,4,0.385,69,spotify:track:5p3JunprHCxClJjOmcLV8G
+Space Worm,Don't Stop or We'll Die,175067,0.0382,0.492,0.77,1.22e-05,4,0.624,-6.021,1,0.0479,202.458,4,0.857,31,spotify:track:4e8MSmu44tIV0ZsHSna5Q0
+Let 'Em In - 2014 Remaster,Wings,311880,0.491,0.761,0.482,0.31,10,0.0864,-11.849,1,0.0572,88.054,4,0.626,51,spotify:track:37RqEET1SYQaAcHDxDQLZY
+"Welcome Home, Son",Radical Face,287634,0.723,0.587,0.497,0.782,6,0.142,-10.757,1,0.0307,144.972,3,0.401,65,spotify:track:6HTVZeVQ9J6Uiq6tHESxU9
+Dance All Night,Free Energy,315533,0.396,0.635,0.562,0.015,9,0.29,-6.309,1,0.0257,109.997,4,0.478,15,spotify:track:4W6iH7M3YnRNF84n7pj7LN
+Wet,Dazey and the Scouts,170931,0.0206,0.49,0.934,7.24e-06,9,0.755,-5.06,0,0.05,95.839,4,0.62,56,spotify:track:1pMEVQiiBtlhBjRxOVqVVH
+Where Did Our Love Go,The Supremes,153333,0.791,0.566,0.49,1.42e-05,0,0.0919,-10.867,1,0.0414,134.934,4,0.847,61,spotify:track:69RH84na5iUNwrwxpgjC5j
+DRUGS,DREAMERS,191973,0.00392,0.588,0.88,2.34e-06,7,0.109,-3.388,1,0.0379,101.006,4,0.43,35,spotify:track:3a3X8tGK0xQNMhGWLrTO28
+Sockhead,Destructo Disk,233984,0.83,0.598,0.225,0,3,0.115,-11.141,1,0.0332,94.154,4,0.12,27,spotify:track:3goVSfwAZZJ5p56M7psxIk
+Femme Fatale,The Velvet Underground,159000,0.913,0.55,0.145,0,0,0.118,-15.753,1,0.0332,103.918,4,0.138,59,spotify:track:3PG7BAJG9WkmNOJOlc4uAo
+I Look Up To You,LAKE,183773,0.862,0.379,0.391,0.674,0,0.114,-16.252,1,0.035,110.559,4,0.28,32,spotify:track:1xvjheXyyxpS6zBM3SYC5g
+Cocaine Blues,Dave Van Ronk,256173,0.89,0.604,0.103,0.000158,1,0.113,-19.879,1,0.0401,121.386,4,0.347,7,spotify:track:6t5lUqUP4okIeVOnn6t3qt
+Slow Dancing in a Burning Room,John Mayer,242000,0.575,0.667,0.361,0.00506,1,0.0805,-8.69,0,0.0273,134.018,5,0.29,71,spotify:track:2jdAk8ATWIL3dwT47XpRfu
+Pheromones,Meth Wax,156925,0.148,0.179,0.736,0.9,7,0.23,-7.66,1,0.0347,174.564,4,0.83,45,spotify:track:05EzpG5riTDvvmrZJgcBPV
+The Waker,Widespread Panic,221760,0.0278,0.479,0.901,0.564,7,0.421,-4.595,1,0.0292,105.344,4,0.438,36,spotify:track:3StH6LNOpHDzSSUmEpti9y
+California Dreamin' - Single Version,The Mamas & The Papas,162373,0.352,0.552,0.608,0,1,0.0533,-9.786,0,0.0345,112.367,4,0.637,76,spotify:track:4s6LhHAV5SEsOV0lC2tjvJ
+Suburban Home,Descendents,100333,3.82e-05,0.385,0.776,0,2,0.346,-9.347,1,0.0389,99.772,3,0.833,48,spotify:track:7Meu81YN9Ols2nQdbkKbbh
+I Will Follow You into the Dark,Death Cab for Cutie,189187,0.924,0.517,0.206,0,5,0.118,-12.233,1,0.0421,80.401,4,0.489,62,spotify:track:3kZC0ZmFWrEHdUCmUqlvgZ
+Clay Pigeons,Michael Cera,186000,0.97,0.292,0.241,0.00989,6,0.105,-17.001,1,0.0428,172.175,4,0.441,57,spotify:track:0XgRWgcs0Pcr9PSIdFWD4N
+People Are Strange - New Stereo Mix,The Doors,130747,0.655,0.7,0.418,0,4,0.195,-11.238,0,0.033,119.627,4,0.721,38,spotify:track:3VQX2NKN51EK57bfKeC3mQ
+Hanging from the Ceiling,The Velveteins,272387,0.0998,0.318,0.736,0.00534,11,0.14,-7.982,1,0.0456,200.051,3,0.364,35,spotify:track:2OMH9Em0QhTxLt5e4kBmqE
+Sports,Viagra Boys,237547,0.00138,0.425,0.77,0.268,2,0.641,-4.765,1,0.0463,129.452,4,0.902,1,spotify:track:5eKlV4rpVpNh4MRYlth0sj
+Tommy's Holiday Camp,The Who,57154,0.893,0.766,0.35,0.108,11,0.121,-16.038,1,0.0877,136.646,4,0.719,24,spotify:track:17YLk1kEDcSG0S0ii4Mmbd
+track_name,artist_name,duration_ms,acousticness,danceability,energy,instrumentalness,key,liveness,loudness,mode,speechiness,tempo,time_signature,valence,popularity,track_uri
+My Iron Lung,Radiohead,276427,0.056,0.242,0.859,0.116,0,0.38,-8.4,1,0.0663,96.929,4,0.671,0,spotify:track:4dPKQxaraW6CG1rTBzV6DW
+The One You Really Love,The Magnetic Fields,173293,0.823,0.532,0.524,0.000308,8,0.193,-9.254,1,0.0285,99.54,4,0.655,0,spotify:track:5Ugy833dkecXYxX8CKGaro
+80's Comedown Machine,The Strokes,298613,0.00583,0.488,0.503,0.809,0,0.101,-8.89,1,0.0326,144.035,4,0.38,52,spotify:track:2lffRiAET2Xt6BNb4EmkS2
+Broken Brain,The Frights,193600,0.206,0.627,0.621,0,7,0.123,-4.596,1,0.0291,93.446,4,0.36,24,spotify:track:0Vhncq86Fdg3dH8XsVjxAw
+My Iron Lung,Radiohead,276427,0.0565,0.242,0.859,0.114,0,0.38,-8.41,1,0.0663,96.917,4,0.672,59,spotify:track:0jyikFM0Umv0KlnrOEKtTG
+Red Minivan,Mike Krol,119627,0.00116,0.513,0.631,0,1,0.171,-4.91,0,0.0402,112.662,4,0.353,0,spotify:track:1NNyqWwsehGBJXwZzOt6hr
+I'm So Tired,Fugazi,118933,0.89,0.303,0.129,0.00776,6,0.123,-15.069,1,0.0301,84.167,4,0.155,0,spotify:track:5IafdoRLyaGPeeA6f8ysIe
+In the Valley of the Sun,Moistboyz,195837,0.000338,0.593,0.98,0.000668,7,0.107,-4.168,1,0.058,157.085,4,0.778,11,spotify:track:1nlznbg8NIoj0rj1pK9nnk
+My Boy - Twin Fantasy,Car Seat Headrest,172920,0.0871,0.568,0.308,0.0418,9,0.128,-9.865,1,0.033,115.078,4,0.379,51,spotify:track:4zQXB3sZrpT2gA3rgYl3sY
+Space Worm,Don't Stop or We'll Die,175067,0.0382,0.492,0.77,1.22e-05,4,0.624,-6.021,1,0.0479,202.458,4,0.857,31,spotify:track:4e8MSmu44tIV0ZsHSna5Q0
+After Hours,The Velvet Underground,127453,0.836,0.608,0.152,0,7,0.182,-20.989,0,0.172,120.834,4,0.472,57,spotify:track:6cA1usDL8nTHeSgFewQat3
+Rancho Pancho,Negativland,148787,0.64,0.417,0.678,0.000842,8,0.236,-7.407,1,0.277,75.074,4,0.605,0,spotify:track:15XdzsMDC8VeI0pEwlJj1x
+Manifestations,Birdbath,203077,0.211,0.644,0.621,0.094,2,0.0562,-5.543,1,0.0296,104.062,4,0.561,0,spotify:track:3IrgroGOkMUs0OoQeoUFEH
+Pressure,Billy Joel,280333,0.0148,0.548,0.68,0.000949,9,0.0877,-8.675,0,0.0474,148.494,4,0.851,53,spotify:track:3LqvmDtXWXjF7fg8mh8iZh
+Sockhead,Destructo Disk,233984,0.83,0.598,0.225,0,3,0.115,-11.141,1,0.0332,94.154,4,0.12,27,spotify:track:3goVSfwAZZJ5p56M7psxIk
+Fifteen Minutes,Mike Krol,95000,0.277,0.531,0.859,0.437,11,0.104,-5.743,0,0.047,117.49,4,0.485,0,spotify:track:5bDsXeSxJgNn0jiYFxA3Cd
+Invocation,Meth Wax,167191,0.0242,0.363,0.923,0.229,11,0.442,-7.591,0,0.0528,100.173,4,0.215,32,spotify:track:1xIcWGt7To0vPVNMVqKhik
+So Many People in the Neighborhood,Ween,210000,0.0649,0.926,0.339,0.91,1,0.143,-11.135,1,0.0637,144.06,4,0.687,0,spotify:track:4oj0ehapLAWXPETtFjKwuI
+Pheromones,Meth Wax,156925,0.148,0.179,0.736,0.9,7,0.23,-7.66,1,0.0347,174.564,4,0.83,45,spotify:track:05EzpG5riTDvvmrZJgcBPV
+Grapes Of Wrath,Weezer,170718,0.0616,0.697,0.584,1.89e-06,8,0.0935,-6.429,0,0.0324,107.083,4,0.96,42,spotify:track:7s42bmqI0kQpoO80H3Vnqu
+Tame,Pixies,116133,0.00404,0.555,0.786,0.758,0,0.4,-6.416,1,0.0707,137.392,4,0.91,0,spotify:track:0jAr9A17yhReqbNLCrM0LO
+Gold Day,Sparklehorse,254560,0.196,0.562,0.539,0.66,10,0.115,-11.196,1,0.0317,86.967,4,0.284,40,spotify:track:7yZF4VuAjjcXjcMbqwZtQc
+Year of the Horse,Pacific Purgatory,183492,0.198,0.539,0.927,0.0172,4,0.364,-3.99,1,0.0335,160.032,4,0.894,33,spotify:track:7A7oaHDrz9Px1v0svHxQj2
+Ladies and gentlemen we are floating in space,Spiritualized,234053,0.753,0.376,0.41,0.000543,2,0.234,-11.452,1,0.034,100.031,3,0.171,51,spotify:track:0fOjUafaAhJV16oRBgCtz7
+Breaker,FIDLAR,180000,0.00273,0.558,0.858,0.785,9,0.536,-4.868,1,0.0419,160.0,4,0.278,0,spotify:track:0OzLnRACL5xIdYvUwd0SZv
+Pepsi/Coke Suicide,Elvis Depressedly,153095,0.742,0.39,0.419,0.937,0,0.143,-9.049,1,0.0302,79.807,4,0.318,0,spotify:track:2MQi8oVx3eOgDOqmeKJIJZ
+Revenge,XXXTENTACION,120027,0.782,0.746,0.251,0.00203,11,0.106,-16.169,0,0.259,139.999,4,0.18,84,spotify:track:5TXDeTFVRVY7Cvt0Dw4vWW
+The Adults Are Talking,The Strokes,309053,0.0113,0.593,0.749,0.106,5,0.314,-5.67,1,0.0475,164.959,4,0.649,75,spotify:track:5ruzrDWcT0vuJIOMW7gMnW
+Old Friend,Mitski,112910,0.356,0.577,0.448,1.38e-05,10,0.218,-9.126,1,0.0228,89.931,4,0.327,0,spotify:track:5wmn1zWhSSDLUmLLwYO9Rj
+I'm So Tired,2002,176000,0.000144,0.171,0.485,0.667,6,0.541,-6.483,1,0.0474,119.805,5,0.172,1,spotify:track:2Ol5KWQjEG5Uxv1NuJ6369
+Lose It,SWMRS,240533,0.334,0.792,0.41,2.19e-05,5,0.106,-10.141,1,0.0492,112.043,4,0.561,50,spotify:track:0Ceozg27V0Ws9jgQixD8fr
+4 Minute Warning,Radiohead,244285,0.59,0.354,0.302,0.0709,9,0.111,-13.078,1,0.0326,123.753,4,0.223,0,spotify:track:1w8QCSDH4QobcQeT4uMKLm
+Bad Girls,Tennis,271440,0.217,0.543,0.69,0.0834,11,0.153,-5.992,1,0.0295,165.037,3,0.51,30,spotify:track:3o6cyNUUVQ55klr7tswS1c
+The Pharmacy,Mario Cuomo,192308,0.402,0.534,0.29,1.05e-05,7,0.123,-10.516,0,0.031,77.943,4,0.0819,0,spotify:track:1vfhDhKEKzBj9HAl3BqpXW
+Sports,Viagra Boys,237547,0.00138,0.425,0.77,0.268,2,0.641,-4.765,1,0.0463,129.452,4,0.902,1,spotify:track:5eKlV4rpVpNh4MRYlth0sj
+All I Think About Now,Pixies,187320,0.00395,0.251,0.571,0.00176,8,0.159,-7.822,1,0.0311,185.736,4,0.226,0,spotify:track:07B4CFVNwG7oJ6pjQBt3am
+Sofia,Clairo,188387,0.598,0.744,0.619,0.00372,0,0.231,-9.805,1,0.039,112.997,4,0.641,76,spotify:track:7B3z0ySL9Rr0XvZEAjWZzM
+Think Of You,Bleached,161156,0.078,0.219,0.906,0.852,4,0.265,-4.995,1,0.0392,198.232,4,0.602,41,spotify:track:5W3Auo6qVL6wwbIruLFju7
+I'M DEAD AND IT'S YOUR FAULT,Birdbath,164476,0.00895,0.453,0.7,0.903,4,0.168,-6.726,1,0.0285,140.068,4,0.203,33,spotify:track:6niY9CaZje814Fr5iu5uj3
+Last Flowers,Radiohead,266478,0.92,0.558,0.307,0.000744,0,0.112,-8.236,1,0.0296,75.807,4,0.304,0,spotify:track:7Ceo3Rpq33Vc5WcOb3tUbT
