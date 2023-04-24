@@ -30,10 +30,13 @@ user_pl_features <- function(user_id,master) {
 }
 
 song_features <-function(track_id) {
-    print(track_id)
     access_token <- init_tkn()
     songs <- apply(track_id,1,get_tracks)
     imgs <- bind_rows(songs,.id="column_label")
-    imgs <- unique(bind_rows(imgs$album.images,.id ="column_label")[,1])
+    imgs <- bind_rows(imgs$album.images,.id ="column_label")
+    imgs <- imgs[!duplicated(imgs[,1]),]$url
+    imgs <- paste('<img src="',imgs,'" height = "50"></img>',sep="")
+
 }
+
   

@@ -49,7 +49,6 @@ rec <- function(playlist,df) {
   norm_pl_score <-predict(norm,pl_score)
   norm_pl_score <- norm_pl_score[,c(7,1,2,8,3,9,4,5,6,11,12,10)]
   norm_pl_score <- t(as.matrix(norm_pl_score))
-  View(norm_pl_score)
 
   #classify the playlist into a cluster
   pl_label <- which.min(dist(norm_pl_score,song.kmeans$centers))
@@ -65,6 +64,9 @@ rec <- function(playlist,df) {
   recs$track_uri<-gsub("spotify:track:","",as.character(recs$track_uri))
   
   rec_imgs <- song_features(recs[,3])
-  View(rec_imgs)
+  recs[,3] = rec_imgs
+  recs <-recs[,c(3,1,2)]
 }
+
+
 rec("6n8Xyr1Ycs86tSjmzFY69k",full_songs)

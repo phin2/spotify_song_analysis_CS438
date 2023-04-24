@@ -22,7 +22,7 @@ ui <- dashboardPage(
     ),    submitButton("Get Reccomendation"),
     
     
-    dataTableOutput(outputId = "tbl"),
+    DT::dataTableOutput(outputId = "tbl"),
     tabItem(tabName = "user")
   )
 )
@@ -30,9 +30,11 @@ ui <- dashboardPage(
 server <- function(input,output) {
   output$value <- renderText({input$playlist_id})
   getSongs <- reactive({
-      songs <- pl_features(input$playlist_id)
+      songs <- rec(input$playlist_id,full_songs)
   })
-  output$tbl <- renderDataTable({getSongs()})
+  output$tbl <- DT::renderDataTable({
+    DT::datatable(getSongs(),escape=FALSE)
+    },colnames=FALSE)
 
 }
 

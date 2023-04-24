@@ -1,0 +1,26 @@
+{
+    "id": "FA327921",
+    "path": "~/Spring 2023/Big Data Analytics/spotify_song_analysis_CS438/spotify_func.R",
+    "project_path": "spotify_func.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1682301331308.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "37,51",
+        "scrollLine": "26"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1682303934,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1682303934386,
+    "read_only": false,
+    "read_only_alternatives": []
+}
