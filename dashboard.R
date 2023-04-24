@@ -23,7 +23,6 @@ ui <- dashboardPage(
     
     
     DT::dataTableOutput(outputId = "tbl"),
-    tabItem(tabName = "user")
   )
 )
 
@@ -33,8 +32,8 @@ server <- function(input,output) {
       songs <- rec(input$playlist_id,full_songs)
   })
   output$tbl <- DT::renderDataTable({
-    DT::datatable(getSongs(),escape=FALSE)
-    },colnames=FALSE)
+    DT::datatable(getSongs())
+    })
 
 }
 

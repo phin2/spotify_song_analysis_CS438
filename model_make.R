@@ -9,7 +9,6 @@ library(ggplot2)
 library(caret)
 library(proxy)
 source("./spotify_func.R")
-library(spotifyr)
 library(doBy)
 library(dplyr)
 
@@ -20,6 +19,9 @@ library(dplyr)
 #data processing scripts produces data in different form so this script
 #only works with the python version of the dataset
 
+full_songs <- read_csv("csv_files/full_songs.csv", 
+                       col_types = cols(`Unnamed: 0.1` = col_skip(), 
+                                        `Unnamed: 0` = col_skip()))
 
 data <- full_songs[,5:16]
 data <- na.exclude(data)
@@ -40,9 +42,9 @@ rec <- function(playlist,df) {
   
   #getting songs from playlist
   pl <- pl_features(playlist)
-  
+  pl <- predict(norm,pl)
   #calculate average features for songs in playlist
-  pl_score = colMeans(pl)
+  pl_score = colMeans(pl,na.rm = TRUE)
   pl_score = t(as.matrix(pl_score))
 
   #normalize playlist features
@@ -52,11 +54,9 @@ rec <- function(playlist,df) {
 
   #classify the playlist into a cluster
   pl_label <- which.min(dist(norm_pl_score,song.kmeans$centers))
-  
+
   #get all playlist within cluster
   same_cluster <- full_songs[song.kmeans$cluster == pl_label,]
-  reccomendable <- same_cluster[]
-  
   dist = which.minn(dist(same_cluster[,5:16],norm_pl_score),5)
   
   
@@ -68,5 +68,3 @@ rec <- function(playlist,df) {
   recs <-recs[,c(3,1,2)]
 }
 
-
-rec("6n8Xyr1Ycs86tSjmzFY69k",full_songs)
