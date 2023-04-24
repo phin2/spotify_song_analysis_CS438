@@ -1,8 +1,10 @@
-install.packages('spotifyr')
+spotify_func_list <- c("spotifyr","dpylr")
+new_spotify_packages <- spotify_func_list[!(spotify_func_list %in% installed.packages()[,"Package"])]
+if (length(new_spotify_packages) > 0) {install.packages(new_spotify_packages)}
 library(spotifyr)
 library(dplyr)
-#This file contains functinos that use the request and send data
-#from the spotify api 
+#This file contains functions that use the request and send data
+#from the Spotify API 
 
 
 #generates an access token
