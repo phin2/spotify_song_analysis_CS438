@@ -29,6 +29,7 @@ user_pl_features <- function(user_id,master) {
   access_token <- init_tkn()
 }
 
+#gets image for songs
 song_features <-function(track_id) {
     access_token <- init_tkn()
     songs <- apply(track_id,1,get_tracks)
