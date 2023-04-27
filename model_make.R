@@ -1,3 +1,6 @@
+model_package_list <- c("Rtsne","readr","ClusterR","factoextra","ggpubr","cluster","ggplot2","caret","proxy","spotifyr","doBy","dplyr")
+new_model_packages <- model_package_list[!(model_package_list %in% installed.packages()[,"Package"])]
+if (length(new_model_packages) > 0) {install.packages(new_model_packages)}
 
 library(Rtsne)
 library(readr)
@@ -8,10 +11,10 @@ library(cluster)
 library(ggplot2)
 library(caret)
 library(proxy)
-source("./spotify_func.R")
 library(doBy)
 library(dplyr)
 
+source("./spotify_func.R")
 
 #This file creates a graphs and visualizations for the dataset
 #as well as recommending songs
