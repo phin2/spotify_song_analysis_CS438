@@ -1,10 +1,10 @@
-is_spotifyr_available <- require(spotifyr)
-if (!is_spotifyr_available) {
-  install.packages("spotifyr")
-}
+spotify_func_list <- c("spotifyr","dpylr")
+new_spotify_packages <- spotify_func_list[!(spotify_func_list %in% installed.packages()[,"Package"])]
+if (length(new_spotify_packages) > 0) {install.packages(new_spotify_packages)}
 library(spotifyr)
+library(dplyr)
 #This file contains functions that use the request and send data
-#from the Spotify API
+#from the Spotify API 
 
 
 #generates an access token
@@ -16,15 +16,13 @@ init_tkn <- function() {
 }
 
 #extracts features from a spotify playlist and stores them in a dataframe
-pl_features <- function(pl_id,master) {
+pl_features <- function(pl_id) {
   
   access_token <- init_tkn()
   
   #gets songs from playlist
-  pl <- get_playlist_audio_features("spotify",pl_id,access_token)[,c(1,6:17,19,31,36,37,45)]
-  master <- rbind(master,pl)
-  master[!duplicated(master),]
-  
+  pl <- get_playlist_audio_features("spotify",pl_id,access_token)[,c(6:16,19)]
+
 }
 
 #gets a users stats from their id
@@ -32,3 +30,16 @@ user_pl_features <- function(user_id,master) {
   
   access_token <- init_tkn()
 }
+
+#gets image for songs
+song_features <-function(track_id) {
+    access_token <- init_tkn()
+    songs <- apply(track_id,1,get_tracks)
+    imgs <- bind_rows(songs,.id="column_label")
+    imgs <- bind_rows(imgs$album.images,.id ="column_label")
+    imgs <- imgs[!duplicated(imgs[,1]),]$url
+    imgs <- paste('<img src="',imgs,'" height = "50"></img>',sep="")
+
+}
+
+  
