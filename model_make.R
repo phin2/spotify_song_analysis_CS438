@@ -54,16 +54,19 @@ rec <- function(playlist,df,session) {
 
   #classify the playlist into a cluster
   pl_label <- which.min(dist(pl_score,song.kmeans$centers))
+  
   #get all playlist within cluster
   same_cluster <- full_songs[song.kmeans$cluster == pl_label,]
   dist = which.minn(dist(same_cluster[,5:16],pl_score),5)
   
-  
+  #get the features that we want to show in the recommendation
   recs <-full_songs[dist,c(2,3,18)]
   recs$track_uri<-gsub("spotify:track:","",as.character(recs$track_uri))
   
+  #gets the album image for recommended
   rec_imgs <- song_features(recs[,3])
   recs[,3] = rec_imgs
   recs <-recs[,c(3,1,2)]
+
 }
 

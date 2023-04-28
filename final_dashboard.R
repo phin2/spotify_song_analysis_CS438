@@ -10,6 +10,7 @@ library(dplyr)
 source("./spotify_func.R")
 source("./model_make.R")
 
+#all the possible values for our axis
 axis_vars <- c(
   "Acousticness" = "acousticness",
   "Danceability" = "danceability",
@@ -23,6 +24,7 @@ axis_vars <- c(
   "Duration" = "duration_ms"
 )
 
+#loading bar
 options(spinner.color="#0275D8", spinner.color.background="#ffffff", spinner.size=2)
 
 sidebar <- dashboardSidebar(
@@ -32,8 +34,8 @@ sidebar <- dashboardSidebar(
   ))
 
 body <- dashboardBody(
-  #Contents of first tab
   tabItems(
+    #Contents of first tab, song recommendation tab
     tabItem(tabName = "playlist",
             textInput("playlist_id", 
                       label = "Playlist", 
@@ -43,6 +45,7 @@ body <- dashboardBody(
             actionButton("recommend","Get Recommendation"),
             withSpinner(DT::dataTableOutput(outputId = "tbl"),type=2)
     ),
+    #Contents of the second tab, exploration of the dataset
     tabItem(tabName = "explore",
             fluidPage(
               sidebarLayout(
@@ -78,18 +81,15 @@ ui <- dashboardPage(
 
 server <- function(input,output,session) {
   songs <- data.frame()
-  shinyInput = function(FUN, len, id, ...) { 
-    inputs = character(len) 
-    for (i in seq_len(len)) { 
-      inputs[i] = as.character(FUN(paste0(id, i), label = NULL, ...)) 
-    } 
-    inputs 
-  }
+
   output$value <- renderText({input$playlist_id})
+  
+  #gets recommended songs from playlist id
   getSongs <- eventReactive(input$recommend, {
     songs <- rec(input$playlist_id,full_songs)
   })
   
+  #data frame for displaying song recommendaions
   output$tbl <- DT::renderDataTable({
     DT::datatable(getSongs(),escape=FALSE)
   })
@@ -98,7 +98,7 @@ server <- function(input,output,session) {
   
   #filters out songs that don't meet conditions from slider inputs
   
-  
+  #gets tracks based on current parameters
   tracks <- reactive({
     min_acoust <- input$acousticness[1]
     max_acoust <- input$acousticness[2]
@@ -125,7 +125,7 @@ server <- function(input,output,session) {
     max_valence <- input$valence[2]
     
     
-    
+    #filters tracks
     s <- full_songs %>% 
       filter(
         acousticness >= min_acoust,
