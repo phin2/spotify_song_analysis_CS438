@@ -1,4 +1,4 @@
-shiny_package_list <- c("shiny" ,"shinydashboard","shinycssloaders")
+shiny_package_list <- c("shiny", "shinydashboard", "shinycssloaders", "ggvis", "dplyr")
 new_shiny_packages <- shiny_package_list[!(shiny_package_list %in% installed.packages()[,"Package"])]
 if (length(new_shiny_packages) > 0) {install.packages(new_shiny_packages)}
 library(shiny)
